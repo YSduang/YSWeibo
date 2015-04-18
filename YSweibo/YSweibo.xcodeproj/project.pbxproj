@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC664D8D1AE27A3500988B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC664D8C1AE27A3500988B08 /* main.m */; };
+		BC664D901AE27A3500988B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC664D8F1AE27A3500988B08 /* AppDelegate.m */; };
+		BC664D931AE27A3500988B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC664D921AE27A3500988B08 /* ViewController.m */; };
+		BC664D961AE27A3500988B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC664D941AE27A3500988B08 /* Main.storyboard */; };
+		BC664D981AE27A3500988B08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC664D971AE27A3500988B08 /* Images.xcassets */; };
+		BC664D9B1AE27A3500988B08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC664D991AE27A3500988B08 /* LaunchScreen.xib */; };
+		BC664DA71AE27A3500988B08 /* YSweiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC664DA61AE27A3500988B08 /* YSweiboTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC664DA11AE27A3500988B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC664D7F1AE27A3400988B08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC664D861AE27A3500988B08;
+			remoteInfo = YSweibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC664D871AE27A3500988B08 /* YSweibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSweibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC664D8B1AE27A3500988B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC664D8C1AE27A3500988B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC664D8E1AE27A3500988B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC664D8F1AE27A3500988B08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC664D911AE27A3500988B08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC664D921AE27A3500988B08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC664D951AE27A3500988B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC664D971AE27A3500988B08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC664D9A1AE27A3500988B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC664DA01AE27A3500988B08 /* YSweiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSweiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC664DA51AE27A3500988B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC664DA61AE27A3500988B08 /* YSweiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSweiboTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC664D841AE27A3500988B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC664D9D1AE27A3500988B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC664D7E1AE27A3400988B08 = {
+			isa = PBXGroup;
+			children = (
+				BC664D891AE27A3500988B08 /* YSweibo */,
+				BC664DA31AE27A3500988B08 /* YSweiboTests */,
+				BC664D881AE27A3500988B08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC664D881AE27A3500988B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC664D871AE27A3500988B08 /* YSweibo.app */,
+				BC664DA01AE27A3500988B08 /* YSweiboTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC664D891AE27A3500988B08 /* YSweibo */ = {
+			isa = PBXGroup;
+			children = (
+				BC664D8E1AE27A3500988B08 /* AppDelegate.h */,
+				BC664D8F1AE27A3500988B08 /* AppDelegate.m */,
+				BC664D911AE27A3500988B08 /* ViewController.h */,
+				BC664D921AE27A3500988B08 /* ViewController.m */,
+				BC664D941AE27A3500988B08 /* Main.storyboard */,
+				BC664D971AE27A3500988B08 /* Images.xcassets */,
+				BC664D991AE27A3500988B08 /* LaunchScreen.xib */,
+				BC664D8A1AE27A3500988B08 /* Supporting Files */,
+			);
+			path = YSweibo;
+			sourceTree = "<group>";
+		};
+		BC664D8A1AE27A3500988B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC664D8B1AE27A3500988B08 /* Info.plist */,
+				BC664D8C1AE27A3500988B08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC664DA31AE27A3500988B08 /* YSweiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC664DA61AE27A3500988B08 /* YSweiboTests.m */,
+				BC664DA41AE27A3500988B08 /* Supporting Files */,
+			);
+			path = YSweiboTests;
+			sourceTree = "<group>";
+		};
+		BC664DA41AE27A3500988B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC664DA51AE27A3500988B08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC664D861AE27A3500988B08 /* YSweibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC664DAA1AE27A3500988B08 /* Build configuration list for PBXNativeTarget "YSweibo" */;
+			buildPhases = (
+				BC664D831AE27A3500988B08 /* Sources */,
+				BC664D841AE27A3500988B08 /* Frameworks */,
+				BC664D851AE27A3500988B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSweibo;
+			productName = YSweibo;
+			productReference = BC664D871AE27A3500988B08 /* YSweibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC664D9F1AE27A3500988B08 /* YSweiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC664DAD1AE27A3500988B08 /* Build configuration list for PBXNativeTarget "YSweiboTests" */;
+			buildPhases = (
+				BC664D9C1AE27A3500988B08 /* Sources */,
+				BC664D9D1AE27A3500988B08 /* Frameworks */,
+				BC664D9E1AE27A3500988B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC664DA21AE27A3500988B08 /* PBXTargetDependency */,
+			);
+			name = YSweiboTests;
+			productName = YSweiboTests;
+			productReference = BC664DA01AE27A3500988B08 /* YSweiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC664D7F1AE27A3400988B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "brent－mac";
+				TargetAttributes = {
+					BC664D861AE27A3500988B08 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BC664D9F1AE27A3500988B08 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BC664D861AE27A3500988B08;
+					};
+				};
+			};
+			buildConfigurationList = BC664D821AE27A3400988B08 /* Build configuration list for PBXProject "YSweibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC664D7E1AE27A3400988B08;
+			productRefGroup = BC664D881AE27A3500988B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC664D861AE27A3500988B08 /* YSweibo */,
+				BC664D9F1AE27A3500988B08 /* YSweiboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC664D851AE27A3500988B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC664D961AE27A3500988B08 /* Main.storyboard in Resources */,
+				BC664D9B1AE27A3500988B08 /* LaunchScreen.xib in Resources */,
+				BC664D981AE27A3500988B08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC664D9E1AE27A3500988B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC664D831AE27A3500988B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC664D931AE27A3500988B08 /* ViewController.m in Sources */,
+				BC664D901AE27A3500988B08 /* AppDelegate.m in Sources */,
+				BC664D8D1AE27A3500988B08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC664D9C1AE27A3500988B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC664DA71AE27A3500988B08 /* YSweiboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC664DA21AE27A3500988B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC664D861AE27A3500988B08 /* YSweibo */;
+			targetProxy = BC664DA11AE27A3500988B08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC664D941AE27A3500988B08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC664D951AE27A3500988B08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC664D991AE27A3500988B08 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC664D9A1AE27A3500988B08 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC664DA81AE27A3500988B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC664DA91AE27A3500988B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC664DAB1AE27A3500988B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSweibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC664DAC1AE27A3500988B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSweibo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC664DAE1AE27A3500988B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YSweiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSweibo.app/YSweibo";
+			};
+			name = Debug;
+		};
+		BC664DAF1AE27A3500988B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YSweiboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSweibo.app/YSweibo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC664D821AE27A3400988B08 /* Build configuration list for PBXProject "YSweibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC664DA81AE27A3500988B08 /* Debug */,
+				BC664DA91AE27A3500988B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC664DAA1AE27A3500988B08 /* Build configuration list for PBXNativeTarget "YSweibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC664DAB1AE27A3500988B08 /* Debug */,
+				BC664DAC1AE27A3500988B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC664DAD1AE27A3500988B08 /* Build configuration list for PBXNativeTarget "YSweiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC664DAE1AE27A3500988B08 /* Debug */,
+				BC664DAF1AE27A3500988B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC664D7F1AE27A3400988B08 /* Project object */;
+}
